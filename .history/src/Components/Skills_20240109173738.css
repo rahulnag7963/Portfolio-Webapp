@@ -1,0 +1,9 @@
+.verticaltext{
+    width:1px;
+    word-wrap: break-word;
+    white-space:pre-wrap; 
+ }
+
+ .fancy{
+    padding-left: 10px;
+ }
