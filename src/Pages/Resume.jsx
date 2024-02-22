@@ -1,8 +1,9 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
-import resume from "../Assets/resume.pdf"
 import {motion} from "framer-motion"
 import {animations} from "../Components/Animations"
+import resume from "../Assets/resume_img.png";
+
 const Resume = () => {
   return (
     <motion.div
@@ -13,7 +14,7 @@ const Resume = () => {
     >
         <div className="display-6 text-center">Resume</div>
         <Container fluid className="d-flex justify-content-center">
-            <iframe  id="resume" title="my resume"className="p-3"src={resume} height="500" width="1200"/>
+          <img src={resume} height="550em"/>
         </Container>
     </motion.div>
   )
