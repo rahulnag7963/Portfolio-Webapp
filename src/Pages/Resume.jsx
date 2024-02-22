@@ -14,7 +14,7 @@ const Resume = () => {
     >
         <div className="display-6 text-center">Resume</div>
         <Container fluid className="d-flex justify-content-center">
-          <img src={resume} height="550em"/>
+          <img src={resume} alt="resume" height="550em"/>
         </Container>
     </motion.div>
   )
