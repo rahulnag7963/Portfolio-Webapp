@@ -14,7 +14,9 @@ const Resume = () => {
     >
         <div className="display-6 text-center">Resume</div>
         <Container fluid className="d-flex justify-content-center">
-          <img src={resume} className="image-fluid m-2" alt="resume" height="550em" width="425em"/>
+          <div className="col-12 col-sm-10 col-md-8 col-lg-6">
+            <img src={resume} className="image-fluid" alt="resume" height="auto" max-width="100%"/>
+          </div>
         </Container>
     </motion.div>
   )
