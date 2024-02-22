@@ -13,7 +13,7 @@ const Resume = () => {
     >
         <div className="display-6 text-center">Resume</div>
         <Container fluid className="d-flex justify-content-center">
-            <iframe className="p-3"src={resume} height="500" width="1200"/>
+            <iframe  id="resume"className="p-3"src={resume} height="500" width="1200"/>
         </Container>
     </motion.div>
   )
