@@ -40,7 +40,7 @@ const Contact = () => {
       <div className="display-3 text-center pb-4">
         Contact Me
       </div>
-      <Container>
+      <Container fluid>
           <Form 
             className="p-2"
             noValidate 
@@ -52,7 +52,7 @@ const Contact = () => {
               <Form.Label>Name</Form.Label>
               <Form.Control 
                 type="text" 
-                placeholder="john doe" 
+                placeholder="write your name here" 
                 required
                 name="user_name"
               />
@@ -61,7 +61,7 @@ const Contact = () => {
               <Form.Label>Email</Form.Label>
               <Form.Control 
                 type="email" 
-                placeholder="name@example.com" 
+                placeholder="write your email here" 
                 required
                 name="user_email"
               />

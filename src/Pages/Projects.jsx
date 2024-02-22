@@ -10,7 +10,7 @@ const Projects = () => {
   const ecommerceLogo = "https://wallpapercave.com/wp/wp3537544.jpg";
   const taxImage = "https://wallpaperaccess.com/full/2975895.jpg";
   const hackathonLogo = "https://miro.medium.com/v2/resize:fit:1024/0*rnYWcmRH4KbfCWzt.png";
-  const mernLogo = "https://markovate.com/wp-content/uploads/2022/08/Top-10-Reasons-To-Choose-MERN-Stack-Development-For-Your-Next-Project_-1280x720px@2x.png";
+  const mernLogo = "https://sbr-technologies.com/wp-content/uploads/2021/06/mern.png";
   return (
   <motion.div
     variants={animations}
@@ -76,12 +76,14 @@ const Projects = () => {
         <Card className="m-2">
           <Card.Img variant="top" src={cryptoImage} />
           <Card.Body>
-            <Card.Title>Cryptocurency Price cheking website</Card.Title>
+            <Card.Title>Cryptocurency Price Checking Website</Card.Title>
             <Card.Text>
-              Built a webapp that displays important information (ex. marketcap, volume, etc.) of the top 250 cryptocurencies by Marketcap.
+              Built a web app that displays important information (ex. market cap, volume, etc.) 
+              of the top 250 cryptocurrencies, ordered based on market cap.
             </Card.Text>
             <Card.Text> 
-              Built using ReactJS, Bootstrap, and React chartJS. The data is recieved from CoinGecko Api 
+              Built using ReactJS, Bootstrap, and React chartJS. 
+              The data is received from CoinGecko API.
             </Card.Text>
             <Button variant="info" href="https://cryptocurrencypricechecker.on.fleek.co/"> Website </Button>{' '}
             <Button variant="secondary" href="https://github.com/rahulnag7963/cpc"> Code </Button>
@@ -90,9 +92,10 @@ const Projects = () => {
         <Card className="m-2">
           <Card.Img variant="top" src={nasaLogo} />
           <Card.Body>
-            <Card.Title>Nasa API website</Card.Title>
+            <Card.Title>Nasa API Website</Card.Title>
             <Card.Text>
-              Built a webapp that displays the daily photo of the day from Nasa using an API.
+              Built a web app that displays the daily photo of 
+              the day from Nasa using their API.
             </Card.Text>
             <Card.Text> 
               Built using ReactJS and Bootstrap, with the data coming from the Nasa API. Includes a like button 
@@ -105,10 +108,11 @@ const Projects = () => {
         <Card className="m-2">
           <Card.Img variant="top" src={ecommerceLogo} />
           <Card.Body>
-            <Card.Title>Eccomerce store</Card.Title>
+            <Card.Title>eComerce Store</Card.Title>
             <Card.Text>
-              Built an eccormerce store in a group of 4 that allows users to buy produts from a page. 
-              My main part in the project was dealing with the login/account functions and overall aesthetics of the page.
+              Built an eCommerce store in a group of 4 that allows users to buy products from a page.
+              My main part in the project was dealing with the login/account functions, authentication
+              and overall aesthetics of the page.
             </Card.Text>
             <Card.Text> 
               Built using JSP, HTML, Docker, SQL database and Bootstrap.  
@@ -125,9 +129,9 @@ const Projects = () => {
               British Columbia, Canada. 
             </Card.Text>
             <Card.Text> 
-              Built using Java. The calculator can calculate your after income taxes from all types of income
-              as well as predicite what taxes you will pay in the
-              future. 
+              Built using Java. The calculator can calculate 
+              your after-income taxes from all types of income
+              as well as predict what taxes you will pay in the future. 
             </Card.Text>
             <Button variant="secondary" href="https://github.com/rahulnag7963/Tax-Calculator"> Code </Button>
           </Card.Body>        
@@ -135,14 +139,14 @@ const Projects = () => {
         <Card className="m-2">
           <Card.Img variant="top" src={mernLogo} />
           <Card.Body>
-            <Card.Title>MERN stack eccomerce website</Card.Title>
+            <Card.Title>MERN Stack eComerce Website</Card.Title>
             <Card.Text>
-              Built an eccomerce website that uses all 
+              Built an eCommerce website that uses all
               the CRUD operations needed to create, update
-              read and delete the product. 
+              read and delete a product.
             </Card.Text>
             <Card.Text> 
-              Built using MongoDB, Express.js, and React. 
+              Built using MongoDB, Express.js, Bootstrap and React. 
               Also utilized Postman for testing endpoints 
               in the backend.
             </Card.Text>
@@ -154,17 +158,16 @@ const Projects = () => {
           <Card.Body>
             <Card.Title>Hackathon Game</Card.Title>
             <Card.Text>
-              In a team of 4, created a game where the user
+              In a team of 4, we created a game where the user
               has to raise money for charities. While the
-              user goes throughout the map, he will
-              require food and energy in order to
-              continue his quest. 
+              user goes through the map, they will
+              require food and energy to continue his quest.
             </Card.Text>
             <Card.Text>
-              Made purely in react, main role was handling
+              Made purely in react. My main role was handling
               interface along with certain interfaces 
               such as Location, Food, and Player typescript
-              files
+              files.
             </Card.Text>
             <Button variant="secondary" href="https://github.com/rahulnag7963/UBCHacks4.0"> Code </Button>
           </Card.Body>

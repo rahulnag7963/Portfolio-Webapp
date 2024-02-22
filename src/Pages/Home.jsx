@@ -15,13 +15,13 @@ const Home = () => {
       >
         <div className="row mx-auto">
           <div className="col">
-            <Container>
+            <Container fluid>
             <Particle/>
-              <TypeAnimation className="display-1"
+            <TypeAnimation className="display-1"
               sequence={[
               'Welcome to my Portfolio!',
               1000,
-              'My name is Rahul and I am web developer',
+              'My name is Rahul and I am a web developer',
               1000,
               'My name is Rahul and I am a react enthusiast',
               1000,
@@ -30,7 +30,7 @@ const Home = () => {
               ]}
               speed={0.5}
               repeat={Infinity}
-              />
+            />
             </Container>
           </div>
           <div className="col">

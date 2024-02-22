@@ -62,6 +62,17 @@ const Header = () => {
                   Experience
                 </motion.div>
               </Nav.Link>
+              <Nav.Link as={Link} to ="/Resume">
+                <motion.div
+                  whileHover={{
+                    scale: 1.3, 
+                    color:"rgba(84,180,211,1)",
+                    textShadow: "10px 10px 8px rgba(84,180,211,1)"
+                  }}
+                > 
+                  Resume
+                </motion.div>
+              </Nav.Link> 
               <Nav.Link as={Link} to ="/Contact">
                 <motion.div
                   whileHover={{
@@ -74,7 +85,7 @@ const Header = () => {
                 </motion.div>
               </Nav.Link>
             </Nav>
-            <div className="p-2">
+            <div>
               <a className="" href="https://www.linkedin.com/in/rahul-nagulapally-8250a5196/">
                 <motion.img
                 className="btn btn-light" 
@@ -88,7 +99,7 @@ const Header = () => {
                 height="50"
                 />
               </a>
-              <a className="m-2" href="https://github.com/rahulnag7963">
+              <a className="" href="https://github.com/rahulnag7963">
                 <motion.img
                 className="btn btn-light"
                 whileHover={{ 
